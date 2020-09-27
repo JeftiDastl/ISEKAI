@@ -2,10 +2,11 @@ body {
   text-align: center;
   background-color: #111111;
   color: #bb99bb;
+font-size: 4em;
 }
 
 div {
-  margin-top: 125px;
+  margin-top: 100px;
 }
 
 h1 {
@@ -14,7 +15,7 @@ h1 {
   font-family: sans-serif;
   text-transform: uppercase;
   //letter-spacing: 20px;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
 
 }
