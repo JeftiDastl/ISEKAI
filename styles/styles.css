@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  background-color: #111111;
+  color: #bb99bb;
+}
+
+div {
+  margin-top: 125px;
+}
+
+h1 {
+ 
+ 
+  font-family: sans-serif;
+  text-transform: uppercase;
+  //letter-spacing: 20px;
+  font-size: 2em;
+  text-align: center;
+
+}
+
