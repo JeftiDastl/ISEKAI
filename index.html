@@ -10024,10 +10024,9 @@ var text = ["a",
 
 
 
-var counter = 0;
 var elem = document.getElementById("changeText");
-var interval = Math.floor(Math.random() * 3000) + 3000
-var inst = setInterval(change, interval);
+var interval = 5000; //Math.floor(Math.random() * 3000) + 3000;
+setInterval(change, interval);
 
 function change() {
   var rand = Math.floor(Math.random() * text.length)
@@ -10035,13 +10034,6 @@ elem.innerHTML = text[rand];
   
 
 }
-
-
-
-
-
-
-
 
 
 
