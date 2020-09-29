@@ -10039,12 +10039,31 @@ elem.innerHTML = text[rand];
 
 </script>
 
+<style>
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #bbbbbb;
+  color: white;
+  padding: 80px;
+  font-size: 26px;
+  cursor: pointer;
+  text-align: center;
+position: absolute;
+    bottom: 0px;
+}
 
+.block:hover {
+  background-color: #dddddd;
+  color: black;
+}
+</style>
 
 
 <p id="single"></p>
 
-<button type="button" onclick="alert('Something Clicked Me')">waiting...</button>
+<button type="button" class="block" onclick="alert('Something Clicked Me')">waiting...</button>
 
   </body>
 </html>
